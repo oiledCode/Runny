@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A581D1C6C98870004FD33 /* RNRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A581C1C6C98870004FD33 /* RNRingView.swift */; };
+		180A581F1C6C9A480004FD33 /* RNDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A581E1C6C9A480004FD33 /* RNDesignableView.swift */; };
+		180A58211C6CD2F20004FD33 /* RNRoundRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A58201C6CD2F20004FD33 /* RNRoundRectButton.swift */; };
+		180A58231C6CE31C0004FD33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A58221C6CE31C0004FD33 /* MapKit.framework */; };
+		180A58251C6CE4520004FD33 /* RNActivityTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A58241C6CE4520004FD33 /* RNActivityTrackerViewController.swift */; };
+		180A58271C6CF5950004FD33 /* RNActivityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A58261C6CF5950004FD33 /* RNActivityListCell.swift */; };
+		180A751D1C6B53B00084BF8E /* RNActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A751C1C6B53B00084BF8E /* RNActivityListViewController.swift */; };
+		180A751F1C6B7D510084BF8E /* RNHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A751E1C6B7D510084BF8E /* RNHeaderView.swift */; };
 		1816395F1C4F88760056FD6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816395E1C4F88760056FD6A /* AppDelegate.swift */; };
-		181639611C4F88760056FD6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639601C4F88760056FD6A /* ViewController.swift */; };
 		181639641C4F88760056FD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181639621C4F88760056FD6A /* Main.storyboard */; };
 		181639661C4F88760056FD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181639651C4F88760056FD6A /* Assets.xcassets */; };
 		181639691C4F88760056FD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181639671C4F88760056FD6A /* LaunchScreen.storyboard */; };
+		181639711C4F8E680056FD6A /* RNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639701C4F8E680056FD6A /* RNHomeViewController.swift */; };
+		181639731C4F8F150056FD6A /* RNDistanceSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639721C4F8F150056FD6A /* RNDistanceSelectorViewController.swift */; };
+		181639751C4F8F260056FD6A /* RNTimeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639741C4F8F260056FD6A /* RNTimeSelectorViewController.swift */; };
+		181639771C4F91270056FD6A /* RNPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639761C4F91270056FD6A /* RNPageViewController.swift */; };
+		181639791C4FC2070056FD6A /* RNMeasureManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639781C4FC2070056FD6A /* RNMeasureManger.swift */; };
+		1816397B1C4FC22B0056FD6A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1816397A1C4FC22B0056FD6A /* CoreLocation.framework */; };
+		1816397D1C4FC23E0056FD6A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1816397C1C4FC23E0056FD6A /* CoreMotion.framework */; };
+		181639851C4FD5CC0056FD6A /* RNFreeRunSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639841C4FD5CC0056FD6A /* RNFreeRunSelectorViewController.swift */; };
+		181639871C4FD6000056FD6A /* RNIntervalSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639861C4FD6000056FD6A /* RNIntervalSelectorViewController.swift */; };
+		181639891C4FD86A0056FD6A /* RNInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181639881C4FD86A0056FD6A /* RNInterval.swift */; };
+		1816398B1C4FD87A0056FD6A /* RNActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816398A1C4FD87A0056FD6A /* RNActivity.swift */; };
+		1844FE681C51210B00B80EB6 /* RNConversionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844FE671C51210B00B80EB6 /* RNConversionUtils.swift */; };
+		18A1EC8B1C50DEC300071BF0 /* RNRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1EC8A1C50DEC300071BF0 /* RNRoundButton.swift */; };
+		18A1EC8D1C50DEF900071BF0 /* RNActivityStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1EC8C1C50DEF900071BF0 /* RNActivityStepperView.swift */; };
+		8DCA78D62FB398AB2762D4F5 /* Pods_Runny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2105CADA1F8EB6D7E2C93A85 /* Pods_Runny.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02C5D821E4B440593F0058C3 /* Pods-Runny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runny.release.xcconfig"; path = "Pods/Target Support Files/Pods-Runny/Pods-Runny.release.xcconfig"; sourceTree = "<group>"; };
+		180A581C1C6C98870004FD33 /* RNRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRingView.swift; sourceTree = "<group>"; };
+		180A581E1C6C9A480004FD33 /* RNDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNDesignableView.swift; sourceTree = "<group>"; };
+		180A58201C6CD2F20004FD33 /* RNRoundRectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRoundRectButton.swift; sourceTree = "<group>"; };
+		180A58221C6CE31C0004FD33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		180A58241C6CE4520004FD33 /* RNActivityTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNActivityTrackerViewController.swift; sourceTree = "<group>"; };
+		180A58261C6CF5950004FD33 /* RNActivityListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNActivityListCell.swift; sourceTree = "<group>"; };
+		180A751C1C6B53B00084BF8E /* RNActivityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNActivityListViewController.swift; sourceTree = "<group>"; };
+		180A751E1C6B7D510084BF8E /* RNHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHeaderView.swift; sourceTree = "<group>"; };
 		1816395B1C4F88760056FD6A /* Runny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1816395E1C4F88760056FD6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181639601C4F88760056FD6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		181639631C4F88760056FD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181639651C4F88760056FD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181639681C4F88760056FD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1816396A1C4F88760056FD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181639701C4F8E680056FD6A /* RNHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHomeViewController.swift; sourceTree = "<group>"; };
+		181639721C4F8F150056FD6A /* RNDistanceSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNDistanceSelectorViewController.swift; sourceTree = "<group>"; };
+		181639741C4F8F260056FD6A /* RNTimeSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNTimeSelectorViewController.swift; sourceTree = "<group>"; };
+		181639761C4F91270056FD6A /* RNPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPageViewController.swift; sourceTree = "<group>"; };
+		181639781C4FC2070056FD6A /* RNMeasureManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMeasureManger.swift; sourceTree = "<group>"; };
+		1816397A1C4FC22B0056FD6A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1816397C1C4FC23E0056FD6A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		181639841C4FD5CC0056FD6A /* RNFreeRunSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNFreeRunSelectorViewController.swift; sourceTree = "<group>"; };
+		181639861C4FD6000056FD6A /* RNIntervalSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNIntervalSelectorViewController.swift; sourceTree = "<group>"; };
+		181639881C4FD86A0056FD6A /* RNInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNInterval.swift; sourceTree = "<group>"; };
+		1816398A1C4FD87A0056FD6A /* RNActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNActivity.swift; sourceTree = "<group>"; };
+		1844FE671C51210B00B80EB6 /* RNConversionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNConversionUtils.swift; sourceTree = "<group>"; };
+		18A1EC8A1C50DEC300071BF0 /* RNRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRoundButton.swift; sourceTree = "<group>"; };
+		18A1EC8C1C50DEF900071BF0 /* RNActivityStepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNActivityStepperView.swift; sourceTree = "<group>"; };
+		2105CADA1F8EB6D7E2C93A85 /* Pods_Runny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C5E408E889373C3B27B3D /* Pods-Runny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Runny/Pods-Runny.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180A58231C6CE31C0004FD33 /* MapKit.framework in Frameworks */,
+				1816397D1C4FC23E0056FD6A /* CoreMotion.framework in Frameworks */,
+				1816397B1C4FC22B0056FD6A /* CoreLocation.framework in Frameworks */,
+				8DCA78D62FB398AB2762D4F5 /* Pods_Runny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180A751B1C6B53360084BF8E /* RNPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181639861C4FD6000056FD6A /* RNIntervalSelectorViewController.swift */,
+				181639721C4F8F150056FD6A /* RNDistanceSelectorViewController.swift */,
+				181639741C4F8F260056FD6A /* RNTimeSelectorViewController.swift */,
+				181639841C4FD5CC0056FD6A /* RNFreeRunSelectorViewController.swift */,
+				181639761C4F91270056FD6A /* RNPageViewController.swift */,
+				180A751E1C6B7D510084BF8E /* RNHeaderView.swift */,
+				180A581E1C6C9A480004FD33 /* RNDesignableView.swift */,
+				180A58201C6CD2F20004FD33 /* RNRoundRectButton.swift */,
+				180A58261C6CF5950004FD33 /* RNActivityListCell.swift */,
+			);
+			name = RNPageViewController;
+			sourceTree = "<group>";
+		};
 		181639521C4F88760056FD6A = {
 			isa = PBXGroup;
 			children = (
+				1816397C1C4FC23E0056FD6A /* CoreMotion.framework */,
+				1816397A1C4FC22B0056FD6A /* CoreLocation.framework */,
 				1816395D1C4F88760056FD6A /* Runny */,
 				1816395C1C4F88760056FD6A /* Products */,
+				9C9BD5003F89297D4E7FDA52 /* Pods */,
+				A7F66F749E69788043C7A3AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,42 @@
 		1816395D1C4F88760056FD6A /* Runny */ = {
 			isa = PBXGroup;
 			children = (
+				180A751B1C6B53360084BF8E /* RNPageViewController */,
 				1816395E1C4F88760056FD6A /* AppDelegate.swift */,
-				181639601C4F88760056FD6A /* ViewController.swift */,
 				181639621C4F88760056FD6A /* Main.storyboard */,
 				181639651C4F88760056FD6A /* Assets.xcassets */,
 				181639671C4F88760056FD6A /* LaunchScreen.storyboard */,
 				1816396A1C4F88760056FD6A /* Info.plist */,
+				181639701C4F8E680056FD6A /* RNHomeViewController.swift */,
+				181639781C4FC2070056FD6A /* RNMeasureManger.swift */,
+				181639881C4FD86A0056FD6A /* RNInterval.swift */,
+				1816398A1C4FD87A0056FD6A /* RNActivity.swift */,
+				18A1EC8A1C50DEC300071BF0 /* RNRoundButton.swift */,
+				18A1EC8C1C50DEF900071BF0 /* RNActivityStepperView.swift */,
+				1844FE671C51210B00B80EB6 /* RNConversionUtils.swift */,
+				180A751C1C6B53B00084BF8E /* RNActivityListViewController.swift */,
+				180A581C1C6C98870004FD33 /* RNRingView.swift */,
+				180A58241C6CE4520004FD33 /* RNActivityTrackerViewController.swift */,
 			);
 			path = Runny;
+			sourceTree = "<group>";
+		};
+		9C9BD5003F89297D4E7FDA52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				779C5E408E889373C3B27B3D /* Pods-Runny.debug.xcconfig */,
+				02C5D821E4B440593F0058C3 /* Pods-Runny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7F66F749E69788043C7A3AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180A58221C6CE31C0004FD33 /* MapKit.framework */,
+				2105CADA1F8EB6D7E2C93A85 /* Pods_Runny.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1816396D1C4F88760056FD6A /* Build configuration list for PBXNativeTarget "Runny" */;
 			buildPhases = (
+				C64D4A01CA636D4335683C77 /* Check Pods Manifest.lock */,
 				181639571C4F88760056FD6A /* Sources */,
 				181639581C4F88760056FD6A /* Frameworks */,
 				181639591C4F88760056FD6A /* Resources */,
+				1BFB800DCB55E30BF2282138 /* Embed Pods Frameworks */,
+				1DD2838661388DE9256790E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +231,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BFB800DCB55E30BF2282138 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runny/Pods-Runny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DD2838661388DE9256790E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Runny/Pods-Runny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64D4A01CA636D4335683C77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181639571C4F88760056FD6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181639611C4F88760056FD6A /* ViewController.swift in Sources */,
+				181639851C4FD5CC0056FD6A /* RNFreeRunSelectorViewController.swift in Sources */,
+				181639791C4FC2070056FD6A /* RNMeasureManger.swift in Sources */,
+				180A58251C6CE4520004FD33 /* RNActivityTrackerViewController.swift in Sources */,
+				1816398B1C4FD87A0056FD6A /* RNActivity.swift in Sources */,
+				181639731C4F8F150056FD6A /* RNDistanceSelectorViewController.swift in Sources */,
+				181639771C4F91270056FD6A /* RNPageViewController.swift in Sources */,
+				18A1EC8B1C50DEC300071BF0 /* RNRoundButton.swift in Sources */,
+				180A581D1C6C98870004FD33 /* RNRingView.swift in Sources */,
+				180A581F1C6C9A480004FD33 /* RNDesignableView.swift in Sources */,
+				180A751F1C6B7D510084BF8E /* RNHeaderView.swift in Sources */,
+				181639891C4FD86A0056FD6A /* RNInterval.swift in Sources */,
+				180A58211C6CD2F20004FD33 /* RNRoundRectButton.swift in Sources */,
+				18A1EC8D1C50DEF900071BF0 /* RNActivityStepperView.swift in Sources */,
+				1844FE681C51210B00B80EB6 /* RNConversionUtils.swift in Sources */,
+				181639751C4F8F260056FD6A /* RNTimeSelectorViewController.swift in Sources */,
+				181639711C4F8E680056FD6A /* RNHomeViewController.swift in Sources */,
+				180A58271C6CF5950004FD33 /* RNActivityListCell.swift in Sources */,
+				180A751D1C6B53B00084BF8E /* RNActivityListViewController.swift in Sources */,
+				181639871C4FD6000056FD6A /* RNIntervalSelectorViewController.swift in Sources */,
 				1816395F1C4F88760056FD6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +412,7 @@
 		};
 		1816396E1C4F88760056FD6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779C5E408E889373C3B27B3D /* Pods-Runny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runny/Info.plist;
@@ -256,6 +424,7 @@
 		};
 		1816396F1C4F88760056FD6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C5D821E4B440593F0058C3 /* Pods-Runny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runny/Info.plist;
@@ -284,6 +453,7 @@
 				1816396F1C4F88760056FD6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
